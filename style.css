@@ -1,5 +1,5 @@
 body {
-    background-image: url('ggsgsh.jpg');
+    background-image: url('/ggsgsh.jpg');
     background-size: 90px;
 }
 .background{
@@ -69,5 +69,5 @@ p {
 }
 @font-face {
   font-family: myFont;
-  src: url(/DFPPOPCorn-W12.ttf);
+  src: url('/DFPPOPCorn-W12.ttf');
 }
