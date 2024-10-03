@@ -1,0 +1,73 @@
+body {
+    background-image: url(/ggsgsh.jpg);
+    background-size: 90px;
+}
+.background{
+  background-color: #151515;
+  width: 300px;
+  height: 350px;
+  position: relative;
+  border: solid 5px;
+  border-radius: 10px;
+  border-color: #303030;
+}
+.qwerty {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+form {
+  color: white;
+  font-family: myFont;
+  position: relative;
+  place-items: center;
+  top:190px;
+  height: 150px;
+  display: grid;
+  flex-direction: column;
+  z-index: 1;
+}
+button {
+  color: white;
+  border-radius: 5px;
+  background-color: red;
+  border: solid darkred 2px;
+  font-family: myFont;
+  width: 210px;
+  height: 40px;
+  font-size: 17px;
+  position: relative;
+  top: 5px;
+}
+button:active{
+  background-color: darkred;
+  border-color: red;
+}
+input {
+  font-family: myFont;
+  background: white;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: solid 2px;
+  border-color: darkgray;
+}
+img {
+  width: 150px;
+  left: 70px;
+  top: 30px;
+  position: absolute;
+}
+p {
+  font-size: 12px;
+  position: relative;
+}
+@font-face {
+  font-family: myFont;
+  src: url(/DFPPOPCorn-W12.ttf);
+}
